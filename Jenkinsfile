@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "✅ Just a simple build stage running."
-                bat 'touch hello.txt'
+                bat 'type hello.txt'
             }
         }
 
